@@ -13,7 +13,7 @@ function traerFecha(){
         minutos = '0' + minutos.toString()
     }
 
-    
+    setInterval("location.reload()",60000);   
     hora.innerHTML = horas + ' : ' + minutos + ' : ' + segundos
 }
 traerFecha()
